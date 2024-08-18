@@ -38,6 +38,13 @@ The Memory Game is a simple card-matching game built with React. The objective o
 - `useState`: Used to manage the score, high score, selected cards, and the deck of cards.
 - `useEffect`: Used to fetch card data from the Pokémon TCG API when the component mounts and update the Displayed High score.
 
+## Styling
+- TailwindCSS: Used for styling the application with utility-first CSS classes.
+
+## Build Tool
+- Vite: Used as the build tool for faster and leaner development experience.
+
+
 ## API
 This project uses the [Pokémon TCG API](https://pokemontcg.io/) to fetch card data.
 
@@ -45,4 +52,3 @@ This project uses the [Pokémon TCG API](https://pokemontcg.io/) to fetch card d
 - [The Odin Project](https://www.theodinproject.com/lessons/node-path-react-new-memory-card) for the game mechanics. 
 - [Pokémon TCG API](https://pokemontcg.io/) for providing the card data.
 - React for the powerful UI library.
-- 
