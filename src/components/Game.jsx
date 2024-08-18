@@ -39,15 +39,14 @@ export default  function Game() {
             setScore(score + 1);
             setCards(shuffleArray(cards));
             setSelectedCards([...selectedCards, cardId]);
-
         }
         
     }
  
     return (
-        <>
+        <div className='border-gray-300 border-2 rounded-md p-4 bg-white'>
             <Header score={score} highScore={highScore} gameCount={gameCount}/>
             <Board cards={cards} cardClick={handleClick}/>
-        </>
+        </div>
     )
 }
